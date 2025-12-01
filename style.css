@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#pcard{
+    background-color: #274c77;
+    color: white;
+    height: 300px;
+    width: 210px;
+    border-top-left-radius: 20px ;
+    border-bottom-left-radius: 20px ;
+    box-shadow:2px 2px 20px rgb(80, 115, 175) ;
+    border-top-right-radius: 5px ;
+    border-bottom-right-radius: 5px ;
+}
+body{
+    background-color:#e7ecef ;
+}
+#acard{
+    display: flex;
+    justify-content: center;  /* horizontal */
+    align-items: center;      /* vertical */
+    height:100vh;
+}
+#name{
+    display: flex;
+    margin-top: 3px;
+    justify-content: center;
+
+    font-weight: 360;
+    font-size: 15px;
+    font-family:Roboto, 'Segoe UI', Tahoma, sans-serif;
+    text-transform: capitalize;
+    text-decoration:underline rgb(244, 237, 237);
+
+}
+
+#uid{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+
+    font-weight: 360;
+    font-size: 15px;
+    font-family:Roboto, 'Segoe UI', Tahoma, sans-serif;
+    text-transform: capitalize;
+
+}
+#bio{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+
+    font-weight: 300;
+    font-size: 15px;
+    font-family:Roboto, 'Segoe UI', Tahoma, sans-serif;
+    text-transform: capitalize;
+}
+img{
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px 0px 0px 61px;
+   
+    height: 80px;
+    width: 80px;
+    border-radius:50% ;
+    border: 2px solid white;
+    box-shadow:5px 5px 10px rgb(31, 70, 136) ;
+}
+#btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 30px 0px 30px ;
+    
+    height: 30px;
+    width: 150px;
+    color: rgb(31, 70, 136);
+    border-radius:10px;
+    border: 2px solid white;
+    box-shadow:5px 5px 10px rgb(31, 70, 136) ;
+    font-weight: 700;
+    font-size: 15px;
+    font-family:Roboto, 'Segoe UI', Tahoma, sans-serif;
+
+}
+#line{
+    width: 210px;
+    height: 25px;
+    background-color: aliceblue;
+    margin-top: 8px;
+    color: #274c77;
+    box-shadow:0px 5px 10px rgb(31, 70, 136) ;
+    text-align: center;
+
+}
